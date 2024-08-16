@@ -11,4 +11,3 @@ root = customtkinter.CTk()
 root.title('Expense Mananger')
 root.geometry('800x600')
 root.resizable(True, True)
-
