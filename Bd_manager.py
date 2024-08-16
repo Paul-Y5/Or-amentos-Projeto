@@ -1,7 +1,6 @@
 import sqlite3 as sql
 
 # Conexão com o banco de dados
-
 conexao = sql.connect('banco_Dados.db')
 
 #Inserir dados
