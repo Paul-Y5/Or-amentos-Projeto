@@ -116,22 +116,6 @@ entry_2.place(
     height=49.0
 )
 
-canvas.create_rectangle(
-    488.0,
-    401.0,
-    635.0,
-    446.0,
-    fill="#98A6F4",
-    outline="")
-
-canvas.create_rectangle(
-    206.0,
-    394.0,
-    311.0,
-    439.0,
-    fill="#98A6F4",
-    outline="")
-
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
 button_1 = Button(
@@ -284,7 +268,7 @@ button_5 = Button(
     relief="flat"
 )
 button_5.place(
-    x=496.0,
+    x=498.0,
     y=403.0,
     width=133.0,
     height=43.0
