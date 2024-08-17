@@ -46,8 +46,8 @@ image_1 = canvas.create_image(
 image_image_2 = PhotoImage(
     file=relative_to_assets("image_2.png"))
 image_2 = canvas.create_image(
-    460.0,
-    107.0,
+    425.0,
+    85.0,
     image=image_image_2
 )
 
@@ -111,24 +111,8 @@ entry_2 = Entry(
 entry_2.place(
     x=170.0,
     y=327.0,
-    width=173.0,
+    width=175.0,
     height=49.0
-)
-
-button_image_1 = PhotoImage(
-    file=relative_to_assets("button_1.png"))
-button_1 = Button(
-    image=button_image_1,
-    borderwidth=0,
-    highlightthickness=0,
-    command=lambda: print("button_1 clicked"),
-    relief="flat"
-)
-button_1.place(
-    x=208.0,
-    y=396.0,
-    width=97.0,
-    height=43.0
 )
 
 image_image_6 = PhotoImage(
@@ -145,22 +129,19 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
+    bg="#98A6F4",
     command=lambda: print("button_2 clicked"),
-    relief="flat"
+    relief="flat",
+    text="LOG",
+    compound="center",
+    font=("Arial", 20, "bold"),
+    fg="#FFFFFF"
 )
 button_2.place(
     x=208.0,
     y=396.0,
     width=97.0,
     height=43.0
-)
-
-image_image_7 = PhotoImage(
-    file=relative_to_assets("image_7.png"))
-image_7 = canvas.create_image(
-    259.0,
-    418.0,
-    image=image_image_7
 )
 
 image_image_8 = PhotoImage(
@@ -244,9 +225,14 @@ button_image_3 = PhotoImage(
 button_3 = Button(
     image=button_image_3,
     borderwidth=0,
+    bg="#98A6F4",
     highlightthickness=0,
     command=lambda: print("button_3 clicked"),
-    relief="flat"
+    relief="flat",
+    text="Register",
+    compound="center",
+    font=("Arial", 20, "bold"),  
+    fg="#FFFFFF"
 )
 button_3.place(
     x=498.0,
@@ -255,13 +241,6 @@ button_3.place(
     height=43.0
 )
 
-image_image_10 = PhotoImage(
-    file=relative_to_assets("image_10.png"))
-image_10 = canvas.create_image(
-    564.0,
-    430.0,
-    image=image_image_10
-)
 
 image_image_11 = PhotoImage(
     file=relative_to_assets("image_11.png"))
